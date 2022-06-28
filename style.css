@@ -1,0 +1,52 @@
+.calculator{
+    width: auto;
+}
+.screen{
+    width: 52%;
+    height: 70px;
+    border: 1px solid red;
+}
+.input{
+    width: 98%;
+    height: 65px;
+    border: none;
+}
+.buttonTaps{
+    width: auto;
+}
+#firstRow{
+    display: flex;
+}
+button{
+    background-color: whitesmoke;
+    width: 100%;
+}
+.ac, .del, .plus, .minus{
+    width: 13%;
+    text-align: center;
+    border: 1px solid red;
+}
+#secondRow{
+    display: flex;
+}
+.one, .two, .three, .division{
+    width: 13%;
+    border: 1px solid red;
+    text-align: center;
+}
+#thirdRow{
+    display: flex;
+}
+.four, .five, .six, .equals{
+    width: 13%;
+    border: 1px solid red;
+    text-align: center;
+}
+#fourthRow{
+    display: flex;
+}
+.seven, .eight, .nine, .zero{
+    width: 13%;
+    border: 1px solid red;
+    text-align: center;
+}
